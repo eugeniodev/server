@@ -4,7 +4,7 @@ var io = require('socket.io')//(2558);
 var shortId 		= require('shortid');
 // Create server & socket
 var server = http.createServer();
-server.listen(2558);
+server.listen(8080);
 io = io.listen(server);
 
 var clients			= [];
